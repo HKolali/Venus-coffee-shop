@@ -1,0 +1,37 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.facility{
+    width: 100%;
+}
+
+.facility__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.facility__header-image{
+    width: 20rem;
+}
+
+.facility__header-title{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: 'Merienda One', cursive;
+    color: var(--black);
+}
+
+.facility__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

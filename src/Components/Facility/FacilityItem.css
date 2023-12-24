@@ -1,0 +1,8 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
