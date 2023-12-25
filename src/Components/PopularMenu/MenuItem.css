@@ -7,14 +7,20 @@
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.facility{
-    width: 100%;
-}
-
-.facility__content{
+.menu-item {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 5rem;
-    padding: 0 6rem;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.menu-item-image {
+    width: 30rem;
+}
+
+.menu-item-title {
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
 }

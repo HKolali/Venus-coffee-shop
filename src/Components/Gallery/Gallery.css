@@ -7,14 +7,14 @@
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.facility{
+.gallery{
     width: 100%;
 }
 
-.facility__content{
+.gallery__content{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 5rem;
     padding: 0 6rem;
 }
