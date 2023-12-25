@@ -33,5 +33,7 @@
 .facility__content{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 5rem;
+    padding: 0 6rem;
 }
