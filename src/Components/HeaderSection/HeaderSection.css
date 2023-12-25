@@ -1,0 +1,27 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.header__image{
+    width: 20rem;
+}
+
+.header__title{
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Merienda One', cursive;
+    color: var(--black);
+}

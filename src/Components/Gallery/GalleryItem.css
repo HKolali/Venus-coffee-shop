@@ -1,0 +1,27 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.gallery-item-image {
+    width: 35rem;
+    height: 25rem;
+    transition: all 200ms ease-in;
+}
+
+.gallery-item-image:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}

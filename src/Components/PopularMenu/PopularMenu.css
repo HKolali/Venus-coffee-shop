@@ -7,14 +7,15 @@
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.facility{
+.menu{
     width: 100%;
 }
 
-.facility__content{
+.menu__content{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    justify-content: center;
     margin-top: 5rem;
     padding: 0 6rem;
 }

@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Banner/Banner'
 import Landing from './Components/Landing/Landing'
 import Facility from './Components/Facility/Facility'
+import PopularMenu from './Components/PopularMenu/PopularMenu'
+import Gallery from './Components/Gallery/Gallery'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Banner />
       <Landing />
       <Facility />
+      <PopularMenu />
+      <Gallery />
     </div>
   );
 }
