@@ -7,20 +7,15 @@
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.menu-item {
+.team{
+    width: 100%;
+}
+
+.team__content{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin: 2rem 2rem;
-}
-
-.menu-item-image {
-    width: 35rem;
-}
-
-.menu-item-title {
-    font-size: 2rem;
-    color: var(--black);
-    margin-top: 1rem;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    padding: 0 6rem;
 }

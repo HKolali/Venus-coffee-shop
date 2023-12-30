@@ -7,20 +7,30 @@
     --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.menu-item {
+.footer-item{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 2rem 2rem;
 }
 
-.menu-item-image {
-    width: 35rem;
+.footer-item__image{
+    width: 7rem;
+    background-color: var(--main-color);
+    border-radius: 30%;
+    padding: 1rem;
 }
 
-.menu-item-title {
+.footer-item__title{
     font-size: 2rem;
     color: var(--black);
     margin-top: 1rem;
+}
+
+.footer-item__description{
+    width: 100%;
+    font-size: 1.8rem;
+    color: var(--light-color);
+    margin-top: 1rem;
+    line-height: 2.5rem;
 }
