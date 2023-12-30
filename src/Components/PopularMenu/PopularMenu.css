@@ -14,8 +14,8 @@
 .menu__content{
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 5rem;
     padding: 0 6rem;
 }

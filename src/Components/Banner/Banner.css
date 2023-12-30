@@ -7,18 +7,33 @@
     --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.banner{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(90deg, var(--white), transparent 70%), url(../../../public/images/header/header.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media screen and (min-width: 1001px) {
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(90deg, var(--white), transparent 70%), url(../../../public/images/header/header.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
-.banner__content{
+@media screen and (max-width: 1000px) {
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(90deg, var(--white), transparent 250%), url(../../../public/images/header/header.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.banner__content {
     width: fit-content;
     display: flex;
     align-items: center;
@@ -27,13 +42,13 @@
     margin-left: 6rem;
 }
 
-h1{
+h1 {
     font-size: 7rem;
     font-family: 'Merienda One', cursive;
     color: var(--black);
 }
 
-p{
+p {
     text-align: center;
     font-size: 1.8rem;
     line-height: 3.5rem;
@@ -41,7 +56,7 @@ p{
     color: var(--light-color);
 }
 
-.banner__btn-link{
+.banner__btn-link {
     margin-top: 3rem;
     font-size: 1.8rem;
     background-color: var(--main-color);
@@ -50,7 +65,7 @@ p{
     font-weight: 500;
 }
 
-.banner__btn-link:hover{
+.banner__btn-link:hover {
     cursor: pointer;
     background-color: var(--black);
 }

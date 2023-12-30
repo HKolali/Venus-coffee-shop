@@ -5,26 +5,21 @@ import HeaderSection from '../HeaderSection/HeaderSection'
 
 function Gallery() {
     let images = [
-        {image: "./images/gallery/gallery-1.webp"},
-        {image: "./images/gallery/gallery-2.webp"},
-        {image: "./images/gallery/gallery-3.webp"},
-        {image: "./images/gallery/gallery-4.webp"},
-        {image: "./images/gallery/gallery-5.webp"},
-        {image: "./images/gallery/gallery-6.webp"}
+        {id: 1, image: "./images/gallery/gallery-1.webp"},
+        {id: 2, image: "./images/gallery/gallery-2.webp"},
+        {id: 3, image: "./images/gallery/gallery-3.webp"},
+        {id: 4, image: "./images/gallery/gallery-4.webp"},
+        {id: 5, image: "./images/gallery/gallery-5.webp"},
+        {id: 6, image: "./images/gallery/gallery-6.webp"}
     ];
 
     return (
         <div className="gallery">
             <HeaderSection title='Our Gallery' />
             <div className="gallery__content">
-                <GalleryItem {...images[0]} />
-                <GalleryItem {...images[1]} />
-                <GalleryItem {...images[2]} />
-            </div>
-            <div className="gallery__content">
-                <GalleryItem {...images[3]} />
-                <GalleryItem {...images[4]} />
-                <GalleryItem {...images[5]} />
+                {images.map((image) => {
+                    return <GalleryItem key={image.id} {...image} />
+                })}
             </div>
         </div>
     );

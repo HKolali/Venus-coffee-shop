@@ -1,0 +1,89 @@
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: 0.2rem solid var(--black);
+    --box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.team-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 2rem;
+}
+
+.team-item:hover .team-item__employee-image {
+    cursor: pointer;
+}
+
+.team-item:hover .layer {
+    display: flex;
+}
+
+.layer {
+    background-color: rgba(156, 156, 156, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.team-item:hover .team-item__employee-social {
+    animation: moveUp 0.7s forwards;
+    display: flex;
+}
+
+.team-item__employee {
+    position: relative;
+}
+
+.team-item__employee-image {
+    position: relative;
+    width: 35rem;
+    transition: all 400ms ease-in;
+}
+
+.team-item__employee-social {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes moveUp {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 70px;
+    }
+}
+
+.team-item__employee-social-icon {
+    width: 3.5rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25%;
+    margin: 0 0.5rem;
+    padding: 5px;
+}
+
+.team-item__employee-social-icon:hover {
+    border-radius: 25%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 2px #e9e9e9;
+}
+
+.team-item__title {
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
