@@ -8,10 +8,12 @@
 }
 
 .footer-item{
+    width: 24rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 .footer-item__image{
