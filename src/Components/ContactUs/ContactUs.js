@@ -1,5 +1,6 @@
 import './ContactUs.css'
 import HeaderSection from '../HeaderSection/HeaderSection'
+import Form from './Form'
 
 function ContactUs(){
     return(
@@ -10,7 +11,7 @@ function ContactUs(){
                     <img src="./images/contact/contact.svg" alt="contact Image" className="contact-us__content-left-image" />
                 </div>
                 <div className="contact-us__content-right">
-                    
+                    <Form />
                 </div>
             </div>
         </div>
